@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cute World</title>
+    <style>
+
+        /* General Styles */
+        body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #ffe4e1, #fff0f5);
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        .biodata-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+
+       /* Header */
+        header {
+            background: linear-gradient(135deg, #854F6C, #D38E9E);
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Header */
+        h1 {
+            font-family: "Pacifico", cursive;
+            color: #ff6f91;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styles */
+        .profile-images img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin: 10px;
+            border: 3px solid #ffb6c1;
+            box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-images img:hover {
+            transform: rotate(9deg) scale(1.0);
+        }
+
+        /* Biodata Section */
+        .biodata-section {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1rem;
+            border-bottom: 1px dashed #ffb6c1;
+            padding-bottom: 10px;
+        }
+
+        .biodata-section label {
+            font-weight: bold;
+            color: #ff6f91;
+            width: 45%;
+        }
+
+        .biodata-section span {
+            font-size: 1rem;
+            color: #666;
+            width: 50%;
+            text-align: right;
+        }
+
+        /* Section Headers */
+        .section-title {
+            font-size: 2rem;
+            color: #ff6f91;
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        /* Image Galleries */
+        .image-gallery img {
+            width: 243px;
+            height: 230px;
+            margin: 15px;
+            border-radius: 15px;
+            border: 5px solid #ffb6c1;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5);
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1) rotate(-5deg);
+        }
+.resume-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.resume-table th, .resume-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.resume-table th {
+    background-color: #ffb6c1;
+    font-weight: bold;
+}
+
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 2em;
+            font-size: 1rem;
+            color: #ff6f91;
+            width: 100%;
+            padding-top: 15px;
+            box-sizing: border-box;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0.1)
+            
+        }
+
+        .footer::before {
+            content: "✨";
+            margin-right: 5px;
+        }
+
+        .footer::after {
+            content: "✨";
+            margin-left: 5px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 15px;
+            }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#family">Family</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     
+    <div class="biodata-container">
+        <h1>Welcome to My Cute World</h1>
+
+        <!-- Profile Images -->
+        <div class="profile-images">
+            <img src="aboutme11.jpg" alt="About Me 1">
+            <img src="aboutme2.jpg" alt="About Me 2">
+            <img src="aboutme3.jpg" alt="About Me 3">
+        </div>
+
+        <!-- Biodata Section -->
+        <div class="biodata-section"><label>Full Name:</label><span>Mia Natasha binti Shahiful Faizi</span></div>
+        <div class="biodata-section"><label>Date of Birth:</label><span>November 13, 2004</span></div>
+        <div class="biodata-section"><label>Gender:</label><span>Female</span></div>
+        <div class="biodata-section"><label>Country:</label><span>Malaysia</span></div>
+        <div class="biodata-section"><label>Hobbies:</label><span>Watching ASMR, cooking, playing with cats</span></div>
+        <div class="biodata-section"><label>Phone Number:</label><span>019-73085**</span></div>
+        <div class="biodata-section"><label>Status:</label><span>Single</span></div>
+        <div class="biodata-section"><label>Number of Siblings:</label><span>2</span></div>
+        <div class="biodata-section"><label>Favourite Food:</label><span>Sardine</span></div>
+        <div class="biodata-section"><label>Favourite Drink:</label><span>Matcha</span></div>
+        <div class="biodata-section"><label>Favourite Place:</label><span>House and Putrajaya</span></div>
+
+        <!-- Experience Section -->
+        <h2 class="section-title">Experience</h2>
+        <div class="biodata-section"><label>Pemimpin Mahasiswa Destini Siswa Sesi2023/2024:</label><span>Participated as a facilitator in the event of new students in UITM in Protocol and Disciplinary Bureau</span></div>
+        <div class="image-gallery">
+            <img src="PMDS3.jpg" alt="PMDS">
+            <img src="PMDS2.jpg" alt="PMDS">
+        </div>
+        <div class="biodata-section"><label>Kejohanan Catur Sesi 2023/2024:</label><span>Appointed as the assistant treasurer in the club and also appointed as the head of the program for the chess tournament at UITM</span></div>
+        <div class="image-gallery">
+            <img src="catur1.jpg" alt="Chess">
+            <img src="catur2.jpg" alt="Chess">
+        </div>
+        <div class="biodata-section"><label>Kejohanan Debat Hak Asasi Manusia Sesi 2023/2024:</label><span>Participated as a Yang di- pertua, timekeeper, the rector's script maker for the closing ceremony and protocol bureau</span></div>
+        <div class="image-gallery">
+            <img src="KDHAM2.jpg" alt="Debate">
+             <img src="KDHAM4.jpg" alt="Debate">
+        </div>
+         <div class="biodata-section"><label>Kejohanan Debat Presiden Sesi 2024:</label><span>On duty as the jury for every round of debate</span></div>
+        <div class="image-gallery">
+            <img src="juri1.jpg" alt="Juri">
+            <img src="juri2.jpg" alt="Juri">
+        </div>
+         <div class="biodata-section"><label>Johor Youth Meetup by OMJ:</label><span>On duty as a secretary for this program</span></div>
+        <div class="image-gallery">
+            <img src="TMJ.jpg" alt="TMJ">
+            <img src="TMJ2.jpg" alt="TMJ">
+         </div>
+         <div class="biodata-section"><label>Kongres Mahasiswa Johor:</label><span>Duty as the person in charge of UITM Segamat for this program</span></div>
+        <div class="image-gallery">
+            <img src="KONGRESS1.jpg" alt="KONGRES">
+            <img src="KONGRES2.jpg" alt="KONGRES">
+
+
+         <div class="biodata-section"><label>Internship in Majlis Perbandaran Batu Pahat (MPBP):</label><span>Working in the information technology department</span></div>
+        <div class="image-gallery">
+            <img src="internship6.jpg" alt="Internship">
+            <img src="internship 3.jpg" alt="Internship">
+
+        <!-- Education Section -->
+        <h2 class="section-title">Education</h2>
+        <div class="biodata-section"><label>Sekolah Menengah Convent, Batu Pahat,Johor:</label>
+         <span>	Malaysia Higher School Certificate (SPM) as Business and Art student
+</span></div>    
+         <img src="convent1.jpg" alt="Convent">
+         <img src="convent2.jpg" alt="Convent">
+         <div class="biodata-section"><label>Universiti Teknologi Mara Cawangan Johor,Kampus Segamat:</label>  
+         <span>Diploma in Information Management</span></div>    
+          <img src="uitm1.jpg" alt="UITM">
+           <img src="uitm2.jpg" alt="UITM">
+
+        <!-- Family Section -->
+        <h2 class="section-title">Family</h2>
+        <div class="biodata-section"><label>Parents:</label><span>Supportive,Loving and My World</span></div>
+        <img src="family4.jpg" alt="family">
+        <img src="family2.jpg" alt="family">
+        <img src="family3.jpg" alt="family">
+
+        <!--Gallery Section -->
+        <h2 class="section-title">Gallery</h2>
+        <div class="biodata-section"><label>Gallery:</label><span>Unforgatable Memories</span></div>
+        <img src="gallery1.jpg" alt="gallery">
+        <img src="gallery1.2.jpg" alt="gallery">
+        <img src="gallery1.4.jpg" alt="gallery">
+        <img src="gallery2.jpg" alt="gallery">
+        <img src="gallery3.jpg" alt="gallery">
+        <img src="gallery4.jpg" alt="gallery">
+        <img src="gallery5.jpg" alt="gallery">
+        <img src="gallery6.jpg" alt="gallery">
+        <img src="gallery7.jpg" alt="gallery">
+        <img src="gallery8.jpg" alt="gallery">
+        <img src="gallery9.jpg" alt="gallery">
+        <img src="gallery10.jpg" alt="gallery">
+        <img src="gallery11.jpg" alt="gallery">
+        <img src="gallery12.jpg" alt="gallery">
+        <img src="gallery13.jpg" alt="gallery">
+        <img src="gallery14.jpg" alt="gallery">
+        <img src="gallery15.jpg" alt="gallery">
+        <img src="gallery16.jpg" alt="gallery">
+        <img src="gallery17.jpg" alt="gallery">
+        <img src="gallery18.jpg" alt="gallery">
+        <img src="gallery19.jpg" alt="gallery">
+        <img src="gallery20.jpg" alt="gallery">
+        <img src="gallery21.jpg" alt="gallery">
+        <img src="gallery22.jpg" alt="gallery">
+        <img src="gallery24.jpg" alt="gallery">
+        <img src="gallery25.jpg" alt="gallery">
+        <img src="gallery26.jpg" alt="gallery">
+        <img src="gallery27.jpg" alt="gallery">
+        <img src="gallery28.jpg" alt="gallery">
+        <img src="gallery29.jpg" alt="gallery">
+        <img src="gallery30.jpg" alt="gallery">
+        <img src="gallery31.jpg" alt="gallery">
+        <img src="gallery33.jpg" alt="gallery">
+
+      <!--Resume Section -->
+<h2 class="section-title">Resume</h2>
+<div class="biodata-section">
+    <label>Resume:</label>
+    <span>More About Me</span>
+</div>
+<!-- Adding a Table -->
+<div class="resume-table">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Profile</td>
+                <td>Energetic and passionate college student. I am seeking to grow my experience, where I can utilize my knowledge to execute every task. In addition, I am motivated and enthusiastic as a major in Information Management wants to enhance my skills in analyzing and managing data information. </td>
+            </tr>
+            <tr>
+                <td>Soft Skills</td>
+                <td>
+•	Time management
+•	Adaptability
+•	Teamwork 
+•	Problem-solving
+</td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td>Malay and English</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        
+        <!-- Footer -->
+        <div class="footer">© 2024 Mia's Biodata Page</div>
+    </div>
+</body>
+</html>
